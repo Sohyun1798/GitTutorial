@@ -6,3 +6,22 @@
 - status
 
 git commit -m <message> -m <description>
+
+<ssh>
+
+ssh-keygen -t rsa -b 4096 -C "email@example.com"
+ls | grep testkey
+
+pub stands for public!
+
+ex>
+testkey -> private key
+testkey.pub
+
+pbcopy < ~/testkey.pub
+github 에 ssh key 등록.
+
+key 확인 > adding your ssh key to ~ page
+
+
+<git push>
