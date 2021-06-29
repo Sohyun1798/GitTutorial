@@ -25,3 +25,10 @@ key 확인 > adding your ssh key to ~ page
 
 
 <git push>
+
+git push origin master
+-> origin 위치의 master 브랜치에 push 하겠다
+
+git push -u origin master
+-> origin/master 를 default 로 사용하겠다
+-> 이 담부터는 push 만 해도 됨.
