@@ -1,0 +1,49 @@
+- clone : Bring a repository that is hosted somewhere like github into a folder on your local machine
+- add : track your files and changes in git
+- commit : save your files in Git
+- push : upload git commits to a remote repo to your local
+- pull : download changes from remote repo
+- status
+
+git commit -m <message> -m <description>
+
+<ssh>
+
+ssh-keygen -t rsa -b 4096 -C "email@example.com"
+ls | grep testkey
+
+pub stands for public!
+
+ex>
+testkey -> private key
+testkey.pub
+
+pbcopy < ~/testkey.pub
+github 에 ssh key 등록.
+
+key 확인 > adding your ssh key to ~ page
+
+
+<git push>
+
+git push origin master
+-> origin 위치의 master 브랜치에 push 하겠다
+
+git push -u origin master
+-> origin/master 를 default 로 사용하겠다
+-> 이 담부터는 push 만 해도 됨.
+
+<github workflow>
+write code -> commit changes -> make a pull request
+
+<local git workflow>
+write code -> git add -> git commit -> git push -> make a pull request
+
+<git branching>
+master branch
+feature branch -> make update => changes only seen in feature branch
+hot fix branch
+
+git branch
+q -> quit
+git checkout -> -b create new branch / or switch branch
