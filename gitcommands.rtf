@@ -51,8 +51,13 @@ q -> quit
 git checkout -> -b create new branch / or switch branch
 
 git push --set-upstream origin feature-readme-instruction
+-u : shortform of --set blah blah
 = -u 쓰는 것과 같음.
 
 git pull
 git branch -d feature-readme-instruction
 git commit -am => add+message
+
+git merge master -> conflicts
+git status 로 체크.
+git commit -am "updated with master"
